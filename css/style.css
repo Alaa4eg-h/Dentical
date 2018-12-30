@@ -249,22 +249,30 @@ a:hover {
 
 /*Start About*/
 
+.about .about-content {
+    margin-bottom: 50px;
+}
+
 .about .content-image {
     float: left;
     width: 50%;
+    background-color: #f00;
+    margin-right: 1%;
 }
 
 .about .content-image img {
     display: block;
     max-width: 100%;
-    padding: 20px;
+    width: 100%;
 }
 
 
 .about .content-block {
     float: right;
-    width: 50%;
-    padding: 80px 0;
+    width: 49%;
+    margin-bottom: 32px;
+    padding: 80px 20px;
+    height: 100%;
 }
 
 .about .content-block p {
@@ -272,46 +280,64 @@ a:hover {
     margin: 40px 0 40px 0;
 }
 
-.about .skills .item {
+.about .skills-items .item {
     margin-bottom: 30px;
 }
 
 
-.about .skills .item h5 {
+.about .skills-items .item h5 {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
 }
 
-.about .skills .item .value {
+.about .skills-items .item .value {
     display: inline-block;
     float: right;
 }
 
-.about .skills .item .progress {
+.about .skills-items .item .progress {
     background: #f4f4f4;
     height: 12px;
     margin-top: 10px;
 }
 
-.about .skills .item .progress .progress-bar {
+.about .skills-items .item .progress .progress-bar {
     background: #00aeef;
     width: 0;
     height: 100%;
 }
 
 
+.about hr.divider {
+    background: #f4f4f4;
+    height: 3px;
+    opacity: 0.6;
+    border: none;
+}
 
 
+.about .counter {
+    background: #f00;
+}
+
+.about .counter .item {
+    width: calc(100% / 4 - 30px);
+    float: left;
+    background: #0f0;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 40px 0;
+}
 
 
+.about .counter .item .icon i {
+    font-size: 40px;
+    color: #00aeef;
+    margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+.about .counter .item .content h2 {
+    
+}
