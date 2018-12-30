@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+
+
+
+/*====================
+Start General Rules
+=====================*/
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #707070;
+    background-color: #fff;
+}
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    color: #333;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+}
+
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #232323;
+}
+
+.clear-fix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+/* Helper Classes */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #00aeef;
+    border: 2px solid #00aeef;
+}
+
+.overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.section-space {
+    padding: 100px 0;
+}
+
+
+.content-block h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.content-block .underline {
+    width: 70px;
+    height: 3px;
+    background: #00aeef;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/*Start Top Contact*/
+
+.top-contact {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.top-contact .address {
+    margin-right: 20px;
+}
+
+.top-contact .address,
+.top-contact .email {
+    float: left;
+}
+
+.top-contact .address .icon,
+.top-contact .email .icon {
+    display: inline-block;
+    color: #00aeef;
+    margin-right: 5px;
+}
+
+
+.top-contact ul.social {
+    float: right;
+    text-align: center;
+}
+
+.top-contact ul.social li {
+    display: inline-block;
+    margin: 0 5px 0;
+}
+
+.top-contact ul.social li a {
+    display: inline-block;
+}
+
+/*Start Top Contact*/
+
+/*Start Navigation*/
+.nav-main {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.nav-main .logo {
+    float: left;
+}
+
+.nav-main .nav-wrap {
+    float: left;
+    width: 70%;
+    margin-top: 5px;
+}
+
+.nav-main .nav-wrap ul.nav-list {
+    text-align: center;
+}
+
+.nav-main .nav-wrap ul.nav-list li {
+    display: inline-block;
+}
+
+.nav-main .nav-wrap ul.nav-list li:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+.nav-main .nav-wrap ul.nav-list li a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 7px;
+}
+
+
+.nav-main a.booking-now {
+    float: right;
+}
+
+/*End Navigation*/
+
+
+/*Start Home*/
+
+.showcase {
+    position: relative;
+    height: 100vh;
+    background: url(../img/bg-img/showcase.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.showcase .content-block {
+    position: relative;
+    z-index: 2;
+    top: 150px;
+}
+
+.showcase .content-block h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.showcase .content-block p {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.showcase .content-block .action-buttons .get-started {
+    background: #00aeef;
+    color: #fff;
+    margin-right: 20px;
+}
+
+/*End Home*/
+
+/*Start About*/
+
+.about .content-image {
+    float: left;
+    width: 50%;
+}
+
+.about .content-image img {
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+}
+
+
+.about .content-block {
+    float: right;
+    width: 50%;
+    padding: 80px 0;
+}
+
+.about .content-block p {
+    font-size: 15px;
+    margin: 40px 0 40px 0;
+}
+
+.about .skills .item {
+    margin-bottom: 30px;
+}
+
+
+.about .skills .item h5 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about .skills .item .value {
+    display: inline-block;
+    float: right;
+}
+
+.about .skills .item .progress {
+    background: #f4f4f4;
+    height: 12px;
+    margin-top: 10px;
+}
+
+.about .skills .item .progress .progress-bar {
+    background: #00aeef;
+    width: 0;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
