@@ -112,6 +112,7 @@ a:hover {
     height: 3px;
     background: #00aeef;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 
@@ -277,7 +278,7 @@ a:hover {
 
 .about .content-block p {
     font-size: 15px;
-    margin: 40px 0 40px 0;
+    margin-bottom: 40px;
 }
 
 .about .skills-items .item {
@@ -314,17 +315,13 @@ a:hover {
     height: 3px;
     opacity: 0.6;
     border: none;
+    margin-bottom: 20px;
 }
 
-
-.about .counter {
-    background: #f00;
-}
 
 .about .counter .item {
     width: calc(100% / 4 - 30px);
     float: left;
-    background: #0f0;
     text-align: center;
     margin-right: 15px;
     margin-left: 15px;
@@ -339,5 +336,77 @@ a:hover {
 }
 
 .about .counter .item .content h2 {
-    
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
 }
+
+.about .counter .item .content h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*End About*/
+
+/*Start Services*/
+.services {
+    position: relative;
+    background: url(../img/bg-img/services.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.services.overlay:before {
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.8;
+}
+.services .content-block {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+
+.services .content-block .title h2 {
+    color: #fff;
+}
+
+.services .services-items {
+    width: 55%;
+    float: left;
+}
+
+.services .services-items .row-one {
+    margin-bottom: 30px;
+}
+
+.services .services-items .row .item {
+    padding: 40px 20px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+
+.services .services-items .row .item .icon {
+    margin-bottom: 20px;
+}
+
+.services .services-items .row .item .icon i {
+    font-size: 24px;
+}
+
+.services .services-items .row .item h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.services .vedio-promo {
+    position: relative;
+    width: 45%;
+    z-index: 2;
+    float: left;
+}
+
+
+/*End Services*/
