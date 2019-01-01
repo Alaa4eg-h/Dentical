@@ -360,20 +360,19 @@ a:hover {
     background: linear-gradient(to right, #2c455d, #00012c);
     opacity: 0.8;
 }
+
 .services .content-block {
     position: relative;
     z-index: 2;
     color: #fff;
+    width: 53%;
+    float: left;
+    margin-right: 2%;
 }
 
 
 .services .content-block .title h2 {
     color: #fff;
-}
-
-.services .services-items {
-    width: 55%;
-    float: left;
 }
 
 .services .services-items .row-one {
@@ -406,7 +405,136 @@ a:hover {
     width: 45%;
     z-index: 2;
     float: left;
+    margin-top: 60px;
 }
 
 
+.services .vedio-promo .vedio-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.services .vedio-promo .play-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.services .vedio-promo .play-icon i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #00aeef;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 /*End Services*/
+
+/*Start Pricing*/
+
+
+.pricing .title h2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing .title .underline {
+    width: 70px;
+    height: 3px;
+    background: #00aeef;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pricing table {
+    width: 100%;
+}
+
+
+.pricing table thead tr th,
+.pricing table thead tr td {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background: #f4f4f4;
+    color: #707070;
+    font-weight: 600;
+}
+
+.pricing table thead tr:first-of-type th {
+    background: #00aeef;
+    -ms-text-align-last: left;
+    text-align-last: left;
+    color: #fff;
+}
+
+/*End Pricing*/
+
+
+/*Start Reservation*/
+
+
+.reservation {
+    position: relative;
+    background: url(../img/bg-img/Reservation.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.reservation.overlay:before {
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.8;
+}
+
+.reservation .reserve-form form {
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.reservation .reserve-form form .input-field input,
+.reservation .reserve-form form .select-box select{
+    width: 48%;
+    float: left;
+    padding: 15px 20px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.reservation .reserve-form form .input-field input:nth-child(1),
+.reservation .reserve-form form .input-field input[type="email"] {
+    margin-right: 4%;
+}
+
+
+.reservation .reserve-form form .select-box select {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    border: none;
+    color: #fff;
+}
+
+.reservation .reserve-form form .select-box select:not(:last-of-type) {
+    margin-right: 4%;
+}
+
+reservation .reserve-form form .select-box select{
+    background-color: #fff;
+    color: #707070;
+}
+
+/*End Reservation*/
